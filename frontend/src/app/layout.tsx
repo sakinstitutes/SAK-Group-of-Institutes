@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import SplashScreen from "@/components/SplashScreen";
 import QuickConnect from "@/components/QuickConnect";
 import NoticeTicker from "@/components/NoticeTicker";
-import HideOnAdmin from "@/components/HideOnAdmin";
 import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
@@ -46,16 +45,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
         <Toaster position="top-right" />
-        <HideOnAdmin>
-          <SplashScreen />
-          <NoticeTicker />
-          <Navbar />
-        </HideOnAdmin>
+        <SplashScreen />
+        <NoticeTicker />
+        <Navbar />
         <main>{children}</main>
-        <HideOnAdmin>
-          <Footer />
-          <QuickConnect />
-        </HideOnAdmin>
+        <Footer />
+        <QuickConnect />
       </body>
     </html>
   );

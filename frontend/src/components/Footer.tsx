@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
 import styles from './Footer.module.css';
 import {
   FaFacebookF,
@@ -14,40 +13,10 @@ import {
   FaEnvelope,
   FaPaperPlane
 } from 'react-icons/fa';
-
-type SiteSettings = {
-  collegeName: string;
-  email: string;
-  phone: string;
-  address: string;
-  facebookUrl: string;
-  instagramUrl: string;
-  twitterUrl: string;
-  linkedinUrl: string;
-};
+import { SITE_SETTINGS } from '@/data/staticData';
 
 export default function Footer() {
-  const [settings, setSettings] = useState<SiteSettings>({
-    collegeName: 'SAK College of Nursing',
-    email: 'info@sakcollege.edu',
-    phone: '+91 8884330808',
-    address: 'SAK College Campus, Banglore, India',
-    facebookUrl: '#',
-    instagramUrl: '#',
-    twitterUrl: '#',
-    linkedinUrl: '#'
-  });
-
-  useEffect(() => {
-    fetch('/api/settings')
-      .then(res => res.json())
-      .then(data => {
-        if (data && !data.error) {
-          setSettings(data);
-        }
-      })
-      .catch(err => console.error(err));
-  }, []);
+  const settings = SITE_SETTINGS;
 
   return (
     <footer className={styles.footer}>

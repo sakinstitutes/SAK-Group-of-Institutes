@@ -1,20 +1,15 @@
 import PageHeader from '@/components/PageHeader';
 import styles from './Courses.module.css';
 import Link from 'next/link';
-import { prisma } from '@/lib/prisma';
+import { COURSES } from '@/data/staticData';
 
 export const metadata = {
   title: 'Courses Offered | SAK College of Nursing',
   description: 'Explore our comprehensive nursing programs including GNM, B.Sc. Nursing, and M.Sc. Nursing.',
 };
 
-export const dynamic = 'force-dynamic';
-
-export default async function CoursesPage() {
-  const dbCourses = await prisma.course.findMany({
-    where: { isActive: true },
-    orderBy: { createdAt: 'asc' }
-  });
+export default function CoursesPage() {
+  const dbCourses = COURSES.filter(c => c.isActive);
 
   // Assign distinct colors/icons dynamically for aesthetics if they are not in the DB
   const aesthetics = [

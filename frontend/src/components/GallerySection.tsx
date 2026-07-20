@@ -1,35 +1,14 @@
 "use client";
 
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './GallerySection.module.css';
-
-type GalleryImage = {
-  id: string;
-  imageUrl: string;
-  caption: string | null;
-  category: string;
-};
+import { GALLERY_IMAGES } from '@/data/staticData';
 
 export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([]);
-
-  useEffect(() => {
-    fetch('/api/gallery')
-      .then(res => res.json())
-      .then(data => {
-        if (data && data.length > 0) {
-          setGalleryImages(data);
-        }
-      })
-      .catch(err => console.error(err));
-  }, []);
-
-  if (galleryImages.length === 0) {
-    return null;
-  }
+  const galleryImages = GALLERY_IMAGES;
 
   return (
     <section className={styles.gallerySection}>

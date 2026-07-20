@@ -1,7 +1,6 @@
 export const dynamic = 'force-dynamic';
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
-import { prisma } from '@/lib/prisma';
 
 export async function POST(request: Request) {
   try {
@@ -30,8 +29,8 @@ export async function POST(request: Request) {
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_TO || process.env.EMAIL_USER, // The admin email that receives the enquiries
+      from: process.env.EMAIL_USER || 'noreply@sakcollege.com',
+      to: process.env.EMAIL_TO || 'admin@sakcollege.com', // The admin email that receives the enquiries
       subject: `New Student Enquiry: ${name} (${course})`,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
@@ -62,17 +61,6 @@ export async function POST(request: Request) {
         </div>
       `,
     };
-
-    // Save to Database
-    await prisma.enquiry.create({
-      data: {
-        name,
-        email,
-        phone,
-        course,
-        message: message || null,
-      }
-    });
 
     // If no credentials are set, simulate success in dev, but log a warning.
     if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {

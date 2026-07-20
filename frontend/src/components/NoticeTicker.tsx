@@ -1,22 +1,10 @@
-"use client";
-
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import styles from './NoticeTicker.module.css';
+import { NOTICES } from '@/data/staticData';
 
 export default function NoticeTicker() {
-  const [notices, setNotices] = useState<any[]>([]);
-
-  useEffect(() => {
-    fetch('/api/notices')
-      .then((res) => res.json())
-      .then((data) => {
-        if (Array.isArray(data)) {
-          setNotices(data.filter(n => n.isActive));
-        }
-      })
-      .catch((err) => console.error('Failed to fetch notices:', err));
-  }, []);
+  const notices = NOTICES.filter(n => n.isActive);
 
   if (notices.length === 0) return null;
 

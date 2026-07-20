@@ -1,19 +1,14 @@
 import PageHeader from '@/components/PageHeader';
-import { prisma } from '@/lib/prisma';
 import Image from 'next/image';
+import { FACULTY } from '@/data/staticData';
 
 export const metadata = {
   title: 'Core Faculty | Staff',
   description: 'Meet the core teaching faculty at SAK College of Nursing.',
 };
 
-export const dynamic = 'force-dynamic';
-
-export default async function FacultyPage() {
-  const dbFaculty = await prisma.faculty.findMany({
-    where: { isActive: true },
-    orderBy: { createdAt: 'asc' }
-  });
+export default function FacultyPage() {
+  const dbFaculty = FACULTY.filter(f => f.isActive);
 
   return (
     <main>
