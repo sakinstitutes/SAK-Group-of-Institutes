@@ -3,16 +3,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Footer.module.css';
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaEnvelope,
-  FaPaperPlane
-} from 'react-icons/fa';
+import { FaFacebookF, FaXTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa6';
+import { LuMapPin, LuPhone, LuMail, LuSend } from 'react-icons/lu';
 import { SITE_SETTINGS } from '@/data/staticData';
 
 export default function Footer() {
@@ -43,7 +35,7 @@ export default function Footer() {
           </p>
           <div className={styles.socials}>
             {settings.facebookUrl && <a href={settings.facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebookF /></a>}
-            {settings.twitterUrl && <a href={settings.twitterUrl} target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a>}
+            {settings.twitterUrl && <a href={settings.twitterUrl} target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaXTwitter /></a>}
             {settings.instagramUrl && <a href={settings.instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>}
             {settings.linkedinUrl && <a href={settings.linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a>}
           </div>
@@ -78,15 +70,15 @@ export default function Footer() {
           <h3>Contact & Updates</h3>
           <ul>
             <li>
-              <FaMapMarkerAlt className={styles.contactIcon} />
+              <LuMapPin className={styles.contactIcon} />
               <span>{settings.address}</span>
             </li>
             <li>
-              <FaPhoneAlt className={styles.contactIcon} />
+              <LuPhone className={styles.contactIcon} />
               <a href={`tel:${settings.phone}`}>{settings.phone}</a>
             </li>
             <li>
-              <FaEnvelope className={styles.contactIcon} />
+              <LuMail className={styles.contactIcon} />
               <a href={`mailto:${settings.email}`}>{settings.email}</a>
             </li>
           </ul>
@@ -96,7 +88,7 @@ export default function Footer() {
             <div className={styles.inputGroup}>
               <input type="email" placeholder="Email address" required />
               <button type="submit" aria-label="Subscribe">
-                <FaPaperPlane />
+                <LuSend />
               </button>
             </div>
           </form>

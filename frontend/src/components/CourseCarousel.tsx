@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './CourseCarousel.module.css';
 import { COURSES } from '@/data/staticData';
 
@@ -23,10 +24,22 @@ export default function CourseCarousel() {
               className={`glass-panel ${styles.card}`}
               style={{ backgroundImage: `url(${images[index % images.length]})` }}
             >
-              <div className={styles.icon}>{icons[index % icons.length]}</div>
+              <div className={styles.icon}>
+                {course.iconUrl ? (
+                  <Image 
+                    src={course.iconUrl} 
+                    alt={`${course.name} Icon`} 
+                    width={52} 
+                    height={52} 
+                    className={styles.customIcon}
+                  />
+                ) : (
+                  icons[index % icons.length]
+                )}
+              </div>
               <h3 className={styles.cardTitle}>{course.name}</h3>
               <p className={styles.cardDesc}>{course.description || `Duration: ${course.duration} | Seats: ${course.seats}`}</p>
-              <Link href="/courses" className={styles.cardLink}>
+              <Link href={course.id === 'gnm' ? '/courses/gnm' : '/courses'} className={styles.cardLink}>
                 Learn More &rarr;
               </Link>
             </div>

@@ -1,6 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 import styles from './Courses.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import { COURSES } from '@/data/staticData';
 
 export const metadata = {
@@ -47,7 +48,20 @@ export default function CoursesPage() {
                 >
                   <div className={styles.cardHeader} style={{ background: `linear-gradient(135deg, ${aesthetic.color}15, ${aesthetic.color}05)` }}>
                     <div className={styles.iconWrapper} style={{ color: aesthetic.color, borderColor: `${aesthetic.color}30` }}>
-                      {aesthetic.icon}
+                      {program.iconUrl ? (
+                        <Image
+                          src={program.iconUrl}
+                          alt={program.name}
+                          width={32}
+                          height={32}
+                          style={{
+                            objectFit: 'contain',
+                            filter: 'brightness(0) saturate(100%) invert(48%) sepia(85%) saturate(1450%) hue-rotate(162deg) brightness(95%) contrast(93%)'
+                          }}
+                        />
+                      ) : (
+                        aesthetic.icon
+                      )}
                     </div>
                     <div className={styles.titleWrapper}>
                       <h3 className={styles.shortTitle} style={{ color: aesthetic.color }}>{program.name}</h3>

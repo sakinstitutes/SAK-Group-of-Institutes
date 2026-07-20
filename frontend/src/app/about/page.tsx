@@ -2,16 +2,16 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 import AnimatedCounter from '@/components/AnimatedCounter';
 import styles from './About.module.css';
-import { 
-  FaBullseye, 
-  FaEye, 
-  FaHeart, 
-  FaTrophy, 
-  FaHospital, 
-  FaUserGraduate, 
-  FaMicroscope, 
-  FaUserMd 
-} from 'react-icons/fa';
+import {
+  LuTarget,
+  LuEye,
+  LuHeart,
+  LuTrophy,
+  LuHospital,
+  LuGraduationCap,
+  LuMicroscope,
+  LuStethoscope
+} from 'react-icons/lu';
 
 export const metadata = {
   title: 'About Us | SAK College of Nursing',
@@ -81,7 +81,7 @@ export default function AboutPage() {
           
           <div className={styles.cardGrid}>
             <div className={`${styles.missionCard} ${styles.cardMission}`}>
-              <div className={`${styles.iconWrapper} ${styles.iconMission}`}><FaBullseye /></div>
+              <div className={`${styles.iconWrapper} ${styles.iconMission}`}><LuTarget /></div>
               <h3 className="animate-on-load">Our Mission</h3>
               <p>
                 To provide accessible, high-quality nursing education that fosters clinical excellence, 
@@ -90,7 +90,7 @@ export default function AboutPage() {
             </div>
             
             <div className={`${styles.missionCard} ${styles.cardVision}`}>
-              <div className={`${styles.iconWrapper} ${styles.iconVision}`}><FaEye /></div>
+              <div className={`${styles.iconWrapper} ${styles.iconVision}`}><LuEye /></div>
               <h3 className="animate-on-load">Our Vision</h3>
               <p>
                 To be a globally recognized center of excellence in nursing education and research, 
@@ -99,7 +99,7 @@ export default function AboutPage() {
             </div>
             
             <div className={`${styles.missionCard} ${styles.cardValues}`}>
-              <div className={`${styles.iconWrapper} ${styles.iconValues}`}><FaHeart /></div>
+              <div className={`${styles.iconWrapper} ${styles.iconValues}`}><LuHeart /></div>
               <h3 className="animate-on-load">Core Values</h3>
               <p>
                 Integrity, Compassion, Excellence, Respect, and Accountability form the bedrock of 
@@ -119,22 +119,22 @@ export default function AboutPage() {
         
         <div className={styles.timelineGrid}>
           <div className={styles.timelineItem}>
-            <div className={styles.timelineIcon}><FaTrophy /></div>
+            <div className={styles.timelineIcon}><LuTrophy /></div>
             <h4>INC Recognized</h4>
             <p>Fully recognized and approved by the Indian Nursing Council (INC) for maintaining rigorous academic standards.</p>
           </div>
           <div className={styles.timelineItem}>
-            <div className={styles.timelineIcon}><FaHospital /></div>
+            <div className={styles.timelineIcon}><LuHospital /></div>
             <h4>Multi-Specialty Tie-ups</h4>
             <p>Affiliated with top-tier, multi-specialty hospitals for advanced clinical rotations and hands-on practice.</p>
           </div>
           <div className={styles.timelineItem}>
-            <div className={styles.timelineIcon}><FaUserGraduate /></div>
+            <div className={styles.timelineIcon}><LuGraduationCap /></div>
             <h4>University Affiliation</h4>
             <p>Affiliated with the State Health University, ensuring our degrees hold the highest academic value.</p>
           </div>
           <div className={styles.timelineItem}>
-            <div className={styles.timelineIcon}><FaMicroscope /></div>
+            <div className={styles.timelineIcon}><LuMicroscope /></div>
             <h4>Modern Infrastructure</h4>
             <p>Pioneers in introducing high-fidelity medical mannequins and advanced simulation labs in the region.</p>
           </div>
@@ -171,7 +171,7 @@ export default function AboutPage() {
         <div className={`container ${styles.leadershipSection}`}>
           <div className={styles.leadershipCard}>
             <div className={styles.principalImage}>
-              <div className={styles.avatarPlaceholder}><FaUserMd /></div>
+              <div className={styles.avatarPlaceholder}><LuStethoscope /></div>
             </div>
             <div className={styles.principalText}>
               <span className={styles.badge}>MESSAGE FROM LEADERSHIP</span>

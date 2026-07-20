@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 import styles from './Prospectus.module.css';
-import { FaBookOpen, FaCheckCircle, FaDownload, FaInfoCircle } from 'react-icons/fa';
+import { LuBookOpen, LuCircleCheck, LuDownload, LuInfo } from 'react-icons/lu';
 
 export const metadata = {
   title: 'Prospectus | SAK College of Nursing',
@@ -20,7 +20,7 @@ export default function ProspectusPage() {
           <div className={styles.infoCard}>
             <div className={styles.topBorder}></div>
             <div className={styles.iconWrapper}>
-              <FaBookOpen />
+              <LuBookOpen />
             </div>
             
             <h2 className={`animate-on-load ${styles.title}`}>Information Brochure</h2>
@@ -31,30 +31,30 @@ export default function ProspectusPage() {
             
             <div className={styles.featuresBox}>
               <h4 className={styles.featuresTitle}>
-                <FaInfoCircle /> What's inside?
+                <LuInfo /> What's inside?
               </h4>
               <ul className={styles.featuresList}>
                 <li className={styles.featureItem}>
-                  <FaCheckCircle className={styles.checkIcon} />
+                  <LuCircleCheck className={styles.checkIcon} />
                   <span>Detailed Course Curriculum & Syllabi</span>
                 </li>
                 <li className={styles.featureItem}>
-                  <FaCheckCircle className={styles.checkIcon} />
+                  <LuCircleCheck className={styles.checkIcon} />
                   <span>Hospital Tie-ups & Clinical Training details</span>
                 </li>
                 <li className={styles.featureItem}>
-                  <FaCheckCircle className={styles.checkIcon} />
+                  <LuCircleCheck className={styles.checkIcon} />
                   <span>Hostel & Campus Facility highlights</span>
                 </li>
                 <li className={styles.featureItem}>
-                  <FaCheckCircle className={styles.checkIcon} />
+                  <LuCircleCheck className={styles.checkIcon} />
                   <span>Complete Fee Structure & Scholarship Info</span>
                 </li>
               </ul>
             </div>
             
             <button className={`btn-primary ${styles.downloadBtn}`} disabled>
-              <FaDownload />
+              <LuDownload />
               Download PDF (Coming Soon)
             </button>
           </div>

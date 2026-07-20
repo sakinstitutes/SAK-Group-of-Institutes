@@ -1,6 +1,6 @@
 import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
-import { FaClock, FaUsers, FaGraduationCap, FaCheckCircle, FaFileAlt } from 'react-icons/fa';
+import { LuClock, LuUsers, LuGraduationCap, LuCircleCheck, LuFileText } from 'react-icons/lu';
 import styles from '../CourseDetail.module.css';
 
 export const metadata = {
@@ -17,7 +17,7 @@ export default function PostBasicBScNursingPage() {
           <div className="animate-on-load">
             <div className={styles.contentSection}>
               <h2 className={styles.sectionTitle}>
-                <FaFileAlt style={{ color: 'var(--accent-color)' }} /> Program Overview
+                <LuFileText style={{ color: 'var(--accent-color)' }} /> Program Overview
               </h2>
               <p className={styles.overviewText}>
                 Designed for registered nurses holding a GNM diploma, this program upgrades their qualifications to a bachelor's degree, expanding their clinical expertise and career opportunities.
@@ -26,15 +26,15 @@ export default function PostBasicBScNursingPage() {
 
             <div className={styles.contentSection}>
               <h2 className={styles.sectionTitle}>
-                <FaCheckCircle style={{ color: 'var(--accent-color)' }} /> Eligibility Criteria
+                <LuCircleCheck style={{ color: 'var(--accent-color)' }} /> Eligibility Criteria
               </h2>
               <ul className={styles.eligibilityList}>
                 <li className={styles.eligibilityItem}>
-                  <FaCheckCircle className={styles.checkIcon} />
+                  <LuCircleCheck className={styles.checkIcon} />
                   <span>Passed Higher Secondary/Senior Secondary/Intermediate/10+2 or an equivalent examination.</span>
                 </li>
                 <li className={styles.eligibilityItem}>
-                  <FaCheckCircle className={styles.checkIcon} />
+                  <LuCircleCheck className={styles.checkIcon} />
                   <span>Obtained a certificate in General Nursing and Midwifery (GNM) and registered as R.N.R.M. with the State Nurses Registration Council.</span>
                 </li>
               </ul>
@@ -46,7 +46,7 @@ export default function PostBasicBScNursingPage() {
               <h3 className={styles.sidebarTitle}>Course Highlights</h3>
               
               <div className={styles.highlightItem}>
-                <div className={styles.iconBox}><FaClock /></div>
+                <div className={styles.iconBox}><LuClock /></div>
                 <div className={styles.highlightText}>
                   <span className={styles.highlightLabel}>Duration</span>
                   <span className={styles.highlightValue}>2 Years</span>
@@ -54,7 +54,7 @@ export default function PostBasicBScNursingPage() {
               </div>
 
               <div className={styles.highlightItem}>
-                <div className={styles.iconBox}><FaUsers /></div>
+                <div className={styles.iconBox}><LuUsers /></div>
                 <div className={styles.highlightText}>
                   <span className={styles.highlightLabel}>Intake Capacity</span>
                   <span className={styles.highlightValue}>40 Seats</span>
@@ -62,7 +62,7 @@ export default function PostBasicBScNursingPage() {
               </div>
 
               <div className={styles.highlightItem}>
-                <div className={styles.iconBox}><FaGraduationCap /></div>
+                <div className={styles.iconBox}><LuGraduationCap /></div>
                 <div className={styles.highlightText}>
                   <span className={styles.highlightLabel}>Mode</span>
                   <span className={styles.highlightValue}>Full-Time, On-Campus</span>

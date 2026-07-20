@@ -124,11 +124,21 @@
   color: var(--primary-color);
   border: 2px solid transparent;
   transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.actionImg {
+  object-fit: contain;
+  transition: transform 0.2s ease;
 }
 
 .actionItem:hover .iconWrapper {
   border-color: var(--primary-color);
   color: var(--primary-color);
+}
+
+.actionItem:hover .actionImg {
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {

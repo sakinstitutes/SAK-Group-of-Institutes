@@ -1,6 +1,6 @@
 import PageHeader from '@/components/PageHeader';
 import styles from './Fees.module.css';
-import { FaInfoCircle } from 'react-icons/fa';
+import { LuInfo } from 'react-icons/lu';
 
 export const metadata = {
   title: 'Fees Structure | SAK College of Nursing',
@@ -81,7 +81,7 @@ export default function FeesStructurePage() {
 
         <div className={styles.note}>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-            <FaInfoCircle style={{ color: 'var(--accent-color)', fontSize: '1.4rem', marginTop: '0.1rem', flexShrink: 0 }} />
+            <LuInfo style={{ color: 'var(--accent-color)', fontSize: '1.4rem', marginTop: '0.1rem', flexShrink: 0 }} />
             <div>
               <strong style={{ color: 'var(--text-primary)', fontSize: '1.1rem' }}>Important Note:</strong>
               <p style={{ margin: '0.5rem 0 0 0', opacity: 0.9 }}>
