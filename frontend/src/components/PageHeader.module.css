@@ -16,13 +16,15 @@
   background-image: url('/gallery11.jpeg');
   background-size: cover;
   background-position: center;
+  will-change: transform;
+  transform: translateZ(0);
   animation: kenBurns 20s infinite alternate ease-in-out;
   z-index: 0;
 }
 
 @keyframes kenBurns {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.15); }
+  0% { transform: scale(1) translateZ(0); }
+  100% { transform: scale(1.08) translateZ(0); }
 }
 
 .overlay {

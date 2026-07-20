@@ -12,10 +12,23 @@ export default function Navbar() {
   const pathname = usePathname();
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setScrolled(window.scrollY > 40);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          // Hysteresis: enter/exit "scrolled" at different thresholds so
+          // slow scrolling near the boundary doesn't flip state back and
+          // forth every frame (was causing visible scroll stutter).
+          setScrolled((prev) => {
+            const y = window.scrollY;
+            return prev ? y > 20 : y > 60;
+          });
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 

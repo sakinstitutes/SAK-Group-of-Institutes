@@ -29,7 +29,7 @@
 
 .card {
   padding: 2.5rem 2rem;
-  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -43,6 +43,8 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .card::before {
@@ -66,7 +68,7 @@
 .card:nth-child(4) { animation-delay: 0.4s; }
 
 .card:hover {
-  transform: translateY(-10px) scale(1.02);
+  transform: translateY(-8px) translateZ(0);
   box-shadow: 0 20px 40px rgba(13, 148, 136, 0.3);
   border-color: rgba(94, 234, 212, 0.3);
 }

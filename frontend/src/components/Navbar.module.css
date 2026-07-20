@@ -5,7 +5,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  transition: all 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .headerScrolled {
@@ -17,7 +17,8 @@
   background-color: #1e293b; /* Dark slate */
   color: #94a3b8;
   font-size: 0.8rem;
-  transition: all 0.3s ease;
+  height: 40px;
+  transition: height 0.3s ease, opacity 0.3s ease;
   overflow: hidden;
 }
 
@@ -156,8 +157,9 @@
 }
 
 .headerScrolled .mainNav {
-  background-color: rgba(13, 148, 136, 0.85);
-  backdrop-filter: blur(12px);
+  background-color: rgba(13, 148, 136, 0.9);
+  backdrop-filter: blur(8px);
+  will-change: backdrop-filter;
 }
 
 .navContainer {
