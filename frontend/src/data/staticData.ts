@@ -20,6 +20,7 @@ export const COURSES = [
     fees: 'Contact college for fee details',
     eligibility: '10+2 with English, minimum 40% marks',
     description: 'Prepares general nurses to function as members of the health team in hospital and community health environments.',
+    iconUrl: '/icons/gnm-icon-v2.png',
     isActive: true,
   },
   {
@@ -30,6 +31,7 @@ export const COURSES = [
     fees: 'Contact college for fee details',
     eligibility: '10+2 with PCB & English, minimum 45% marks',
     description: 'Prepares students to become competent professional nurses providing comprehensive care across all health sectors.',
+    iconUrl: '/icons/bsc-icon-v2.png',
     isActive: true,
   },
   {
@@ -40,6 +42,7 @@ export const COURSES = [
     fees: 'Contact college for fee details',
     eligibility: 'GNM diploma holders registered as R.N.R.M.',
     description: 'Upgrades registered nurses with a GNM diploma to a bachelor\'s degree, expanding clinical expertise and career opportunities.',
+    iconUrl: '/icons/post-basic-icon-v2.png',
     isActive: true,
   },
   {
@@ -50,6 +53,7 @@ export const COURSES = [
     fees: 'Contact college for fee details',
     eligibility: 'B.Sc. Nursing with minimum 55% marks and 1 year work experience',
     description: 'Advanced nursing program preparing practitioners, educators, and researchers with specializations in 5 disciplines.',
+    iconUrl: '/icons/msc-icon-v2.png',
     isActive: true,
   },
 ];

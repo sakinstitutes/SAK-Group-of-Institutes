@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './QuickConnect.module.css';
 
 export default function QuickConnect() {
@@ -14,15 +15,21 @@ export default function QuickConnect() {
     >
       <div className={styles.expandMenu}>
         <a href="tel:+918884330808" className={styles.actionItem} title="Call Us">
-          <div className={styles.iconWrapper}>📞</div>
+          <div className={styles.iconWrapper}>
+            <Image src="/icons/call-us.png" alt="Call Us" width={28} height={28} className={styles.actionImg} />
+          </div>
           <span className={styles.label}>Call Us</span>
         </a>
         <a href="https://wa.me/918884330808" target="_blank" rel="noopener noreferrer" className={styles.actionItem} title="WhatsApp">
-          <div className={styles.iconWrapper}>💬</div>
+          <div className={styles.iconWrapper}>
+            <Image src="/icons/whatsapp.png" alt="WhatsApp" width={32} height={32} className={styles.actionImg} />
+          </div>
           <span className={styles.label}>WhatsApp</span>
         </a>
         <Link href="/admission/online-application" target="_blank" rel="noopener noreferrer" className={styles.actionItem} title="Apply Now">
-          <div className={styles.iconWrapper}>📝</div>
+          <div className={styles.iconWrapper}>
+            <Image src="/icons/apply-now.png" alt="Apply Now" width={28} height={28} className={styles.actionImg} />
+          </div>
           <span className={styles.label}>Apply Now</span>
         </Link>
       </div>

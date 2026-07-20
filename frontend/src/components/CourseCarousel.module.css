@@ -80,6 +80,21 @@
 .icon {
   font-size: 3rem;
   margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.customIcon {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(94, 234, 212, 0.4));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover .customIcon {
+  transform: scale(1.1);
+  filter: brightness(0) invert(1) drop-shadow(0 4px 12px rgba(94, 234, 212, 0.7));
 }
 
 .cardTitle {

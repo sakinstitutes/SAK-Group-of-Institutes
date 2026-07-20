@@ -1,7 +1,8 @@
 import PageHeader from '@/components/PageHeader';
 import styles from './Contact.module.css';
 import ContactForm from './ContactForm';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { LuMapPin, LuPhone, LuMail } from 'react-icons/lu';
+import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
 export const metadata = {
   title: 'Contact Us | SAK College of Nursing',
@@ -27,7 +28,7 @@ export default function ContactPage() {
             <div className={styles.infoCards}>
               <div className={styles.infoCard}>
                 <div className={styles.icon}>
-                  <FaMapMarkerAlt />
+                  <LuMapPin />
                 </div>
                 <div>
                   <h3 className="animate-on-load">Campus Address</h3>
@@ -37,7 +38,7 @@ export default function ContactPage() {
 
               <div className={styles.infoCard}>
                 <div className={styles.icon}>
-                  <FaPhoneAlt />
+                  <LuPhone />
                 </div>
                 <div>
                   <h3 className="animate-on-load">Call Us</h3>
@@ -47,7 +48,7 @@ export default function ContactPage() {
 
               <div className={styles.infoCard}>
                 <div className={styles.icon}>
-                  <FaEnvelope />
+                  <LuMail />
                 </div>
                 <div>
                   <h3 className="animate-on-load">Email Us</h3>
@@ -60,7 +61,7 @@ export default function ContactPage() {
               <h3>Follow Our Journey</h3>
               <div className={styles.socialIcons}>
                 <a href="#" className={styles.socialBtn}><FaFacebookF style={{ marginRight: '6px' }}/> Facebook</a>
-                <a href="#" className={styles.socialBtn}><FaTwitter style={{ marginRight: '6px' }}/> Twitter</a>
+                <a href="#" className={styles.socialBtn}><FaXTwitter style={{ marginRight: '6px' }}/> Twitter</a>
                 <a href="#" className={styles.socialBtn}><FaInstagram style={{ marginRight: '6px' }}/> Instagram</a>
               </div>
             </div>
