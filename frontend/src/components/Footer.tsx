@@ -60,6 +60,7 @@ export default function Footer() {
             <li><Link href="/admission/procedure">Admission Procedure</Link></li>
             <li><Link href="/admission/fees">Fees Structure</Link></li>
             <li><Link href="/admission/online-application">Apply Online</Link></li>
+            <li><Link href="/faq">FAQ</Link></li>
             <li><Link href="/rules/code-of-conduct">Code of Conduct</Link></li>
             <li><Link href="/rules/anti-ragging">Anti-Ragging</Link></li>
           </ul>

@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://sakcollege.edu"),
   title: "SAK College of Nursing | Empowering Future Healthcare Leaders",
   description: "Welcome to SAK College, a premier institution for higher education in nursing. Explore our GNM, B.Sc, and M.Sc programs.",
-  keywords: ["Nursing College", "GNM", "B.Sc Nursing", "Healthcare Education", "SAK College", "Assam Nursing"],
   openGraph: {
     title: "SAK College of Nursing",
     description: "Empowering Future Healthcare Leaders through excellence in nursing education.",
