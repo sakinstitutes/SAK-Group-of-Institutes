@@ -46,6 +46,7 @@ export default function Footer() {
           <h3>Quick Links</h3>
           <ul>
             <li><Link href="/about">About Us</Link></li>
+            <li><Link href="/contact">Contact Us</Link></li>
             <li><Link href="/courses">Courses Offered</Link></li>
             <li><Link href="/facilities">Our Facilities</Link></li>
             <li><Link href="/department/medical-surgical">Departments</Link></li>
@@ -104,8 +105,8 @@ export default function Footer() {
             Designed and Developed by <a href="https://novi-q-technologies.vercel.app/" target="_blank" rel="noopener noreferrer" className={styles.creditLink}>NoviQ Technologies</a>
           </p>
           <div className={styles.legalLinks}>
-            <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</Link>
-            <Link href="/terms-of-service" target="_blank" rel="noopener noreferrer">Terms of Service</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-of-service">Terms of Service</Link>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import CourseCarousel from "@/components/CourseCarousel";
 import FacilitiesSection from "@/components/FacilitiesSection";
 import GallerySection from "@/components/GallerySection";
 import AboutHomeSection from "@/components/AboutHomeSection";
+import SiteLinksSection from "@/components/SiteLinksSection";
 
 const KEYWORDS = [
   "Nursing College",
@@ -77,6 +78,7 @@ export default function Home() {
       <FacilitiesSection />
       <GallerySection />
       <AboutHomeSection />
+      <SiteLinksSection />
     </>
   );
 }
