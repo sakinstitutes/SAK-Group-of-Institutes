@@ -1,30 +1,27 @@
-# SAK Group of Institutions - Admin Portal & Website
+# SAK Group of Institutions - Official Website
 
-Welcome to the official repository for the **SAK Group of Institutions** web application. This project is a full-stack Next.js application built with modern web technologies, serving as both the public-facing website and the secure administrative portal for managing college data.
+Welcome to the official repository for the **SAK Group of Institutions** website. This project is the public-facing Next.js application that showcases the college's courses, departments, facilities, and staff, and handles student enquiries and admission applications.
 
 ## 🚀 Tech Stack
 
-- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router, Turbopack)
 - **Language:** TypeScript
+- **UI Library:** React 19
 - **Styling:** Vanilla CSS (Modular)
-- **Database:** PostgreSQL (Neon Serverless)
-- **ORM:** Prisma
-- **Authentication:** NextAuth.js (v4)
+- **Animation:** Framer Motion (page transitions)
+- **Email Delivery:** Nodemailer (enquiry & application forms)
 - **Deployment:** Vercel
 
 ## ✨ Key Features
 
-### 1. Public Website
 - Modern, responsive, and highly aesthetic UI design.
-- Dynamic course carousels fetching live data from the database.
-- Quick Connect inquiry forms for prospective students.
-- Fast, SEO-optimized static and dynamic pages.
-
-### 2. Secure Admin Portal
-- **Dashboard (`/admin`)**: Centralized view of recent inquiries and system metrics.
-- **Course Management**: Add, edit, and manage course offerings dynamically.
-- **Inquiry Management**: View and process student inquiries seamlessly.
-- **Secure Authentication**: Protected routes with bcrypt password hashing and NextAuth session management.
+- Course pages for GNM, B.Sc. Nursing, Post Basic B.Sc. Nursing, and M.Sc. Nursing.
+- Department, facilities, and staff/faculty information pages.
+- Multi-step online admission application form and quick enquiry form, both delivered by email (with honeypot spam protection).
+- Notice ticker for latest announcements.
+- Floating "Quick Connect" widget for Call / WhatsApp / Apply Now.
+- Animated splash screen and smooth page-transition animations.
+- SEO-optimized with OpenGraph and Twitter card metadata.
 
 ## 📦 Getting Started Locally
 
@@ -35,8 +32,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/NoviQ-Projects/SAK-Institute.git
-cd SAK-Institute/frontend
+git clone https://github.com/NoviQ-Projects/SAK-Group-of-Institute.git
+cd SAK-Group-of-Institute/frontend
 ```
 
 ### 2. Install dependencies
@@ -45,21 +42,16 @@ npm install
 ```
 
 ### 3. Setup Environment Variables
-Create a `.env.local` and `.env` file in the `frontend/` directory with your PostgreSQL connection strings:
+Create a `.env.local` file in the `frontend/` directory with your email delivery credentials:
 ```env
-DATABASE_URL="postgresql://username:password@hostname/dbname?sslmode=require"
-NEXTAUTH_SECRET="your_secure_secret"
-NEXTAUTH_URL="http://localhost:3000"
+EMAIL_SERVICE="gmail"
+EMAIL_USER="your_email@gmail.com"
+EMAIL_PASS="your_app_password"
+EMAIL_TO="admin@sakcollege.com"
 ```
+If these are left unset, the enquiry and application forms will simulate a successful submission and log the data to the console — handy for local development without real email credentials.
 
-### 4. Setup the Database
-Sync your Prisma schema with the database:
-```bash
-npx prisma db push
-npx prisma generate
-```
-
-### 5. Run the development server
+### 4. Run the development server
 ```bash
 npm run dev
 ```
@@ -67,8 +59,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the r
 
 ## ☁️ Deployment
 
-This project is configured for seamless deployment on **Vercel**. 
-Ensure that your Vercel project environment variables mirror your `.env` configuration. If using a connection pooler (like Neon), remember to append `&pgbouncer=true` to your `DATABASE_URL` in the Vercel dashboard.
+This project is configured for seamless deployment on **Vercel**.
+Ensure your Vercel project's environment variables mirror your `.env.local` configuration (`EMAIL_SERVICE`, `EMAIL_USER`, `EMAIL_PASS`, `EMAIL_TO`) so the enquiry and application forms can deliver email in production.
 
 ---
 *Developed & Maintained by [NoviQ Technologies]*
