@@ -11,6 +11,8 @@ export default function GlobalError({
   error: Error & { digest?: string };
   unstable_retry: () => void;
 }) {
+  console.error(error);
+
   return (
     <html lang="en">
       <body>
@@ -23,6 +25,7 @@ export default function GlobalError({
           <button type="button" onClick={() => unstable_retry()} className="btn-primary">
             Try Again
           </button>
+          {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- global-error replaces the root layout, so next/link's router context may not be mounted */}
           <a href="/" className={errorStyles.secondaryLink}>Return Home</a>
         </ErrorState>
       </body>

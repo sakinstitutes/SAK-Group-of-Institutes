@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className={styles.slide}>
                 <div className={styles.testimonialCard}>
-                  <div className={styles.quoteIcon}>"</div>
+                  <div className={styles.quoteIcon}>&quot;</div>
                   <p className={styles.quoteText}>{testimonial.quote}</p>
                   <div className={styles.profile}>
                     <div className={styles.avatarWrapper}>

@@ -10,6 +10,15 @@ export default function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const [prevPathname, setPrevPathname] = useState(pathname);
+
+  // Close menus on route change (React's "adjusting state during render"
+  // pattern, not an effect, so it doesn't trigger a cascading extra render)
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
+    setMobileMenuOpen(false);
+    setActiveDropdown(null);
+  }
 
   useEffect(() => {
     let ticking = false;
@@ -31,14 +40,6 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  // Next.js App Router pattern for closing menus on route change
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    setMobileMenuOpen(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    setActiveDropdown(null);
-  }, [pathname]);
 
   const toggleDropdown = (name: string) => {
     if (activeDropdown === name) {

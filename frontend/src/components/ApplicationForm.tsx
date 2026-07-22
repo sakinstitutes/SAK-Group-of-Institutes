@@ -293,7 +293,7 @@ export default function ApplicationForm() {
                 <select name="qualification" value={formData.qualification} onChange={handleChange} required>
                   <option value="" disabled>Select Qualification</option>
                   <option value="12th">10+2 / Higher Secondary</option>
-                  <option value="bachelor">Bachelor's Degree</option>
+                  <option value="bachelor">Bachelor&apos;s Degree</option>
                   <option value="gnm">GNM Diploma</option>
                 </select>
               </div>

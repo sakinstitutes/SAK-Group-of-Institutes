@@ -33,7 +33,7 @@ export default function MeritListPage() {
 
         {/* Previous Years Archive (Placeholder) */}
         <div style={{ marginTop: '5rem' }}>
-          <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '1.5rem', borderBottom: '2px solid #e2e8f0', paddingBottom: '0.5rem', display: 'inline-block' }} className="animate-on-load">Previous Years' Archives</h3>
+          <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '1.5rem', borderBottom: '2px solid #e2e8f0', paddingBottom: '0.5rem', display: 'inline-block' }} className="animate-on-load">Previous Years&apos; Archives</h3>
           <div style={{ display: 'grid', gap: '1rem', marginTop: '1rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.5rem', background: 'white', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
               <div>

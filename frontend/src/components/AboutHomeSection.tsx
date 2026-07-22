@@ -49,10 +49,10 @@ export default function AboutHomeSection() {
             <strong>50+ experienced educators</strong>, and full recognition from the Indian Nursing Council, SAK
             College of Nursing offers the credibility, infrastructure, and support system that prospective
             nursing students look for when searching for a <strong>nursing college near me</strong>. Whether
-            you're looking for a <strong>GNM college near me</strong>, a{' '}
+            you&apos;re looking for a <strong>GNM college near me</strong>, a{' '}
             <strong>B.Sc Nursing near me</strong> option after 12th grade, or an{' '}
-            <strong>M.Sc Nursing near me</strong> program to advance an existing nursing career, SAK's Bangalore
-            campus puts every one of these programs within easy reach. Whether you're comparing the{' '}
+            <strong>M.Sc Nursing near me</strong> program to advance an existing nursing career, SAK&apos;s Bangalore
+            campus puts every one of these programs within easy reach. Whether you&apos;re comparing the{' '}
             <strong>top nursing colleges in Bangalore</strong> or shortlisting a{' '}
             <strong>top 10 nursing college in Bangalore</strong> list for admission season, we invite you to
             visit our campus, meet our faculty, and see why so many students choose SAK as their partner for a
@@ -63,13 +63,13 @@ export default function AboutHomeSection() {
           <p>
             <strong>Nursing admission</strong> at SAK is a straightforward, guided process — our counselling
             team walks every applicant through eligibility, documentation, and course selection, whether
-            they're applying to our <strong>GNM college</strong> program straight out of school or transferring
+            they&apos;re applying to our <strong>GNM college</strong> program straight out of school or transferring
             into our M.Sc program after completing a B.Sc. Our campus is built around practical{' '}
             <strong>healthcare education</strong>: fully equipped simulation labs, a central medical library,
             and clinical rotations at our affiliated hospitals give every student real patient-care experience
             long before graduation, not just classroom theory. That combination of INC-recognized academics,
             hands-on clinical training, and dedicated placement support is what continues to set SAK College
-            apart from other institutions offering similar programs in the city, and it's why so many families
+            apart from other institutions offering similar programs in the city, and it&apos;s why so many families
             researching a <strong>B.Sc Nursing college Bangalore</strong> option end up choosing us.
           </p>
 

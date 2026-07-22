@@ -20,7 +20,7 @@ export default function PostBasicBScNursingPage() {
                 <LuFileText style={{ color: 'var(--accent-color)' }} /> Program Overview
               </h2>
               <p className={styles.overviewText}>
-                Designed for registered nurses holding a GNM diploma, this program upgrades their qualifications to a bachelor's degree, expanding their clinical expertise and career opportunities.
+                Designed for registered nurses holding a GNM diploma, this program upgrades their qualifications to a bachelor&apos;s degree, expanding their clinical expertise and career opportunities.
               </p>
             </div>
 

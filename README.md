@@ -9,7 +9,7 @@ Welcome to the official repository for the **SAK Group of Institutions** website
 - **UI Library:** React 19
 - **Styling:** Vanilla CSS (Modular)
 - **Animation:** Framer Motion (page transitions)
-- **Email Delivery:** Nodemailer (enquiry & application forms)
+- **Email Delivery:** Formspree (enquiry & application forms)
 - **Deployment:** Vercel
 
 ## ✨ Key Features
@@ -41,17 +41,7 @@ cd SAK-Group-of-Institute/frontend
 npm install
 ```
 
-### 3. Setup Environment Variables
-Create a `.env.local` file in the `frontend/` directory with your email delivery credentials:
-```env
-EMAIL_SERVICE="gmail"
-EMAIL_USER="your_email@gmail.com"
-EMAIL_PASS="your_app_password"
-EMAIL_TO="admin@sakcollege.com"
-```
-If these are left unset, the enquiry and application forms will simulate a successful submission and log the data to the console — handy for local development without real email credentials.
-
-### 4. Run the development server
+### 3. Run the development server
 ```bash
 npm run dev
 ```
@@ -60,7 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the r
 ## ☁️ Deployment
 
 This project is configured for seamless deployment on **Vercel**.
-Ensure your Vercel project's environment variables mirror your `.env.local` configuration (`EMAIL_SERVICE`, `EMAIL_USER`, `EMAIL_PASS`, `EMAIL_TO`) so the enquiry and application forms can deliver email in production.
+The enquiry and application forms submit directly to a [Formspree](https://formspree.io/) endpoint (configured in `src/app/api/enquiry/route.ts` and `src/app/api/application/route.ts`) — no environment variables are required for email delivery to work in production.
 
 ---
 *Developed & Maintained by [NoviQ Technologies]*

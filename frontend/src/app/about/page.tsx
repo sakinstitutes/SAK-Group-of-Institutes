@@ -178,10 +178,10 @@ export default function AboutPage() {
               <h3 className="animate-on-load">Dr. Jane Doe</h3>
               <span className={styles.credentials}>Ph.D. in Nursing, M.Sc. Nursing</span>
               <p className={styles.quote}>
-                "Nursing is not just a profession; it is a calling. At SAK College, we are dedicated to 
-                nurturing this calling by providing an environment that challenges you academically while 
-                supporting you emotionally. We believe in creating nurses who lead with their minds and 
-                heal with their hearts."
+                &ldquo;Nursing is not just a profession; it is a calling. At SAK College, we are dedicated to
+                nurturing this calling by providing an environment that challenges you academically while
+                supporting you emotionally. We believe in creating nurses who lead with their minds and
+                heal with their hearts.&rdquo;
               </p>
             </div>
           </div>

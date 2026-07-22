@@ -31,7 +31,7 @@ export default function ProspectusPage() {
             
             <div className={styles.featuresBox}>
               <h4 className={styles.featuresTitle}>
-                <LuInfo /> What's inside?
+                <LuInfo /> What&apos;s inside?
               </h4>
               <ul className={styles.featuresList}>
                 <li className={styles.featureItem}>
