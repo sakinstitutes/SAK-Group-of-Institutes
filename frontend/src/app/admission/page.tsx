@@ -2,8 +2,8 @@ import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Admissions | SAK College of Nursing',
-  description: 'Start your journey with SAK College of Nursing. Find all information regarding admissions, fees, and procedures.',
+  title: 'Admissions | SAK Group of Institutions',
+  description: 'Start your journey with SAK Group of Institutions. Find all information regarding admissions, fees, and procedures.',
 };
 
 export default function AdmissionLandingPage() {
@@ -85,7 +85,7 @@ export default function AdmissionLandingPage() {
             <span className="gradient-text">Starts Here.</span>
           </h2>
           <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: '3rem' }}>
-            At SAK College of Nursing, we are committed to nurturing the next generation of compassionate, highly-skilled healthcare professionals. Explore our admission guidelines and take the first step toward a rewarding career in nursing.
+            At SAK Group of Institutions, we are committed to nurturing the next generation of compassionate, highly-skilled healthcare professionals. Explore our admission guidelines and take the first step toward a rewarding career in nursing.
           </p>
         </div>
       </section>

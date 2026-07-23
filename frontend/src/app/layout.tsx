@@ -9,19 +9,19 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.sakinstitutes.com"),
-  title: "SAK College of Nursing | Empowering Future Healthcare Leaders",
-  description: "Welcome to SAK College, a premier institution for higher education in nursing. Explore our GNM, B.Sc, and M.Sc programs.",
+  title: "SAK Group of Institutions | Empowering Future Healthcare Leaders",
+  description: "Welcome to SAK Group of Institutions, a premier institution for higher education in nursing. Explore our GNM, B.Sc, and M.Sc programs.",
   openGraph: {
-    title: "SAK College of Nursing",
+    title: "SAK Group of Institutions",
     description: "Empowering Future Healthcare Leaders through excellence in nursing education.",
     url: "https://www.sakinstitutes.com",
-    siteName: "SAK College",
+    siteName: "SAK Group of Institutions",
     images: [
       {
         url: "/gallery11.jpeg",
         width: 1200,
         height: 630,
-        alt: "SAK College Campus",
+        alt: "SAK Group of Institutions Campus",
       },
     ],
     locale: "en_IN",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SAK College of Nursing",
+    title: "SAK Group of Institutions",
     description: "Empowering Future Healthcare Leaders through excellence in nursing education.",
     images: ["/gallery11.jpeg"],
   }

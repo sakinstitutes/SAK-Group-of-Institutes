@@ -7,7 +7,7 @@ const LINKS = [
     href: '/about',
     icon: LuUsers,
     title: 'About Us',
-    description: 'Our history, mission, and what makes SAK College of Nursing a trusted name in nursing education.',
+    description: 'Our history, mission, and what makes SAK Group of Institutions a trusted name in nursing education.',
   },
   {
     href: '/contact',
@@ -25,7 +25,7 @@ const LINKS = [
     href: '/terms-of-service',
     icon: LuFileText,
     title: 'Terms of Service',
-    description: 'The terms and conditions that govern your use of the SAK College of Nursing website.',
+    description: 'The terms and conditions that govern your use of the SAK Group of Institutions website.',
   },
 ];
 

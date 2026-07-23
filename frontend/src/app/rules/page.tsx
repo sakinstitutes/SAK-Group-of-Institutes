@@ -2,8 +2,8 @@ import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Rules & Regulations | SAK College of Nursing',
-  description: 'Overview of the rules, regulations, and policies at SAK College of Nursing.',
+  title: 'Rules & Regulations | SAK Group of Institutions',
+  description: 'Overview of the rules, regulations, and policies at SAK Group of Institutions.',
 };
 
 export default function RulesPage() {
@@ -15,7 +15,7 @@ export default function RulesPage() {
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
           <h2 style={{ color: 'var(--primary-color)', marginBottom: '1rem', fontSize: '2.5rem' }} className="animate-on-load">Our Policies & Guidelines</h2>
           <p style={{ color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem' }}>
-            At SAK College of Nursing, we maintain a disciplined and conducive environment for learning and growth. Please familiarize yourself with our core rules and regulations to ensure a harmonious campus life.
+            At SAK Group of Institutions, we maintain a disciplined and conducive environment for learning and growth. Please familiarize yourself with our core rules and regulations to ensure a harmonious campus life.
           </p>
         </div>
 

@@ -14,14 +14,14 @@ import {
 } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'About Us | SAK College of Nursing',
+  title: 'About Us | SAK Group of Institutions',
   description: 'Learn about the history, achievements, mission, and leadership of SAK Group of Institutions.',
 };
 
 export default function AboutPage() {
   return (
     <main className={styles.aboutPage}>
-      <PageHeader title="About SAK College" breadcrumb="About" />
+      <PageHeader title="About SAK Group of Institutions" breadcrumb="About" />
       
       {/* 1. Welcome & History Section */}
       <section className="container">
@@ -63,7 +63,7 @@ export default function AboutPage() {
           <div className={styles.imagePlaceholder} style={{ position: 'relative' }}>
             <Image 
               src="/gallery1.jpeg" 
-              alt="SAK College Building" 
+              alt="SAK Group of Institutions Building" 
               fill 
               style={{ objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} 
             />
@@ -175,10 +175,10 @@ export default function AboutPage() {
             </div>
             <div className={styles.principalText}>
               <span className={styles.badge}>MESSAGE FROM LEADERSHIP</span>
-              <h3 className="animate-on-load">Dr. Jane Doe</h3>
-              <span className={styles.credentials}>Ph.D. in Nursing, M.Sc. Nursing</span>
+              <h3 className="animate-on-load">Mr. Mahamed Farooq</h3>
+              <span className={styles.credentials}>Chairman and Managing Director, MBA</span>
               <p className={styles.quote}>
-                &ldquo;Nursing is not just a profession; it is a calling. At SAK College, we are dedicated to
+                &ldquo;Nursing is not just a profession; it is a calling. At SAK Group of Institutions, we are dedicated to
                 nurturing this calling by providing an environment that challenges you academically while
                 supporting you emotionally. We believe in creating nurses who lead with their minds and
                 heal with their hearts.&rdquo;

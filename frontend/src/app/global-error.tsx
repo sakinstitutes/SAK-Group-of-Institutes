@@ -16,7 +16,7 @@ export default function GlobalError({
   return (
     <html lang="en">
       <body>
-        <title>Something Went Wrong | SAK College of Nursing</title>
+        <title>Something Went Wrong | SAK Group of Institutions</title>
         <ErrorState
           code="500"
           title="Something Went Wrong"

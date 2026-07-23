@@ -1,8 +1,8 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Merit List | SAK College of Nursing',
-  description: 'View the latest admission merit lists for SAK College of Nursing.',
+  title: 'Merit List | SAK Group of Institutions',
+  description: 'View the latest admission merit lists for SAK Group of Institutions.',
 };
 
 export default function MeritListPage() {

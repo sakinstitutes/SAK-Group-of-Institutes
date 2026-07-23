@@ -36,7 +36,7 @@ export default function SplashScreen() {
         <div className={styles.logoContainer}>
           <Image 
             src="/sak-logo.png" 
-            alt="SAK College Logo" 
+            alt="SAK Group of Institutions Logo" 
             width={140} 
             height={160} 
             className={styles.logo}
@@ -46,7 +46,7 @@ export default function SplashScreen() {
         </div>
         
         <h2 className={styles.brandName}>
-          <span className={styles.textGradient}>SAK College of Nursing</span>
+          <span className={styles.textGradient}>SAK Group of Institutions</span>
         </h2>
         
         <div className={styles.loadingWrapper}>

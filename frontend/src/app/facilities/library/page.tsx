@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Library | Facilities',
-  description: 'Central Library of SAK College of Nursing.',
+  description: 'Central Library of SAK Group of Institutions.',
 };
 
 export default function LibraryPage() {
@@ -23,7 +23,7 @@ export default function LibraryPage() {
           <div>
             <h2 style={{ color: 'var(--primary-color)', marginBottom: '1rem', fontSize: '2.5rem' }} className="animate-on-load">Knowledge Hub</h2>
             <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: '2rem' }}>
-              Our spacious, well-lit Central Library is the heart of academic life at SAK College. It houses a vast collection of medical and nursing literature to support our students&apos; research and studies.
+              Our spacious, well-lit Central Library is the heart of academic life at SAK Group of Institutions. It houses a vast collection of medical and nursing literature to support our students&apos; research and studies.
             </p>
             <div className="glass-panel card-3d" style={{ padding: '2rem' }}>
               <h3 style={{ color: 'var(--text-primary)', marginBottom: '1rem' }} className="animate-on-load">Library Resources</h3>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Pediatric Nursing | Department',
-  description: 'Department of Pediatric Nursing at SAK College of Nursing.',
+  description: 'Department of Pediatric Nursing at SAK Group of Institutions.',
 };
 
 export default function PediatricDepartmentPage() {

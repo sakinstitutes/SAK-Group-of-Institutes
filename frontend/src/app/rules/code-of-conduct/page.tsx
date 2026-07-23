@@ -1,8 +1,8 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Code of Conduct | SAK College of Nursing',
-  description: 'Student Code of Conduct and professional guidelines at SAK College of Nursing.',
+  title: 'Code of Conduct | SAK Group of Institutions',
+  description: 'Student Code of Conduct and professional guidelines at SAK Group of Institutions.',
 };
 
 export default function CodeOfConductPage() {
@@ -63,7 +63,7 @@ export default function CodeOfConductPage() {
         <div style={{ textAlign: 'center', marginBottom: '4rem' }} className="animate-on-load">
           <h2 style={{ color: 'var(--primary-color)', fontSize: '2.5rem', marginBottom: '1rem' }}>Discipline & Professionalism</h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.8' }}>
-            Nursing is a noble and highly disciplined profession. SAK College expects all students to maintain the highest standards of personal and professional conduct on and off campus.
+            Nursing is a noble and highly disciplined profession. SAK Group of Institutions expects all students to maintain the highest standards of personal and professional conduct on and off campus.
           </p>
         </div>
 

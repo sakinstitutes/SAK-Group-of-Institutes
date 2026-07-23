@@ -2,8 +2,8 @@ import PageHeader from '@/components/PageHeader';
 import EnquiryForm from '@/components/EnquiryForm';
 
 export const metadata = {
-  title: 'Enquire Now | SAK College of Nursing',
-  description: 'Submit an enquiry for nursing programs at SAK College of Nursing.',
+  title: 'Enquire Now | SAK Group of Institutions',
+  description: 'Submit an enquiry for nursing programs at SAK Group of Institutions.',
 };
 
 export default function ApplyOnlinePage() {

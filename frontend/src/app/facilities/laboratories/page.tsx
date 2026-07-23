@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
   title: 'Laboratories | Facilities',
-  description: 'State-of-the-art nursing laboratories at SAK College of Nursing.',
+  description: 'State-of-the-art nursing laboratories at SAK Group of Institutions.',
 };
 
 export default function LaboratoriesPage() {

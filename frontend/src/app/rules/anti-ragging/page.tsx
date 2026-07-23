@@ -4,7 +4,7 @@ import { LuShield, LuGavel, LuUsers } from 'react-icons/lu';
 
 export const metadata = {
   title: 'Anti-Ragging Policy | Rules',
-  description: 'Anti-ragging policy at SAK College of Nursing.',
+  description: 'Anti-ragging policy at SAK Group of Institutions.',
 };
 
 export default function AntiRaggingPage() {
@@ -26,7 +26,7 @@ export default function AntiRaggingPage() {
           </div>
           
           <p className={styles.description}>
-            SAK College of Nursing maintains a strict zero-tolerance policy towards ragging in any form. We are committed to providing a safe, secure, and welcoming environment for all freshers.
+            SAK Group of Institutions maintains a strict zero-tolerance policy towards ragging in any form. We are committed to providing a safe, secure, and welcoming environment for all freshers.
           </p>
           
           <div className={styles.actionBox}>

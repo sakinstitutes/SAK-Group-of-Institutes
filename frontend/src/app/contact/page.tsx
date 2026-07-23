@@ -5,7 +5,7 @@ import { LuMapPin, LuPhone, LuMail } from 'react-icons/lu';
 import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
 export const metadata = {
-  title: 'Contact Us | SAK College of Nursing',
+  title: 'Contact Us | SAK Group of Institutions',
   description: 'Get in touch with SAK Group of Institutions for admissions, inquiries, or more information.',
 };
 
@@ -32,7 +32,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="animate-on-load">Campus Address</h3>
-                  <p>SAK College Campus<br />Banglore, India</p>
+                  <p>SAK Group of Institutions Campus<br />Banglore, India</p>
                 </div>
               </div>
 

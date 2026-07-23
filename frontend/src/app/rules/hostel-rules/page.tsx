@@ -1,8 +1,8 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Hostel Rules | SAK College of Nursing',
-  description: 'Hostel rules and regulations at SAK College of Nursing.',
+  title: 'Hostel Rules | SAK Group of Institutions',
+  description: 'Hostel rules and regulations at SAK Group of Institutions.',
 };
 
 export default function HostelRulesPage() {

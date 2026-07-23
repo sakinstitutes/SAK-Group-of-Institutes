@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
   title: 'Hostel & Mess | Facilities',
-  description: 'Residential facilities at SAK College of Nursing.',
+  description: 'Residential facilities at SAK Group of Institutions.',
 };
 
 export default function HostelPage() {

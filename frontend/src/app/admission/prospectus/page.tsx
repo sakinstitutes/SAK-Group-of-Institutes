@@ -4,8 +4,8 @@ import styles from './Prospectus.module.css';
 import { LuBookOpen, LuCircleCheck, LuDownload, LuInfo } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'Prospectus | SAK College of Nursing',
-  description: 'Download the official prospectus of SAK College of Nursing.',
+  title: 'Prospectus | SAK Group of Institutions',
+  description: 'Download the official prospectus of SAK Group of Institutions.',
 };
 
 export default function ProspectusPage() {
@@ -25,7 +25,7 @@ export default function ProspectusPage() {
             
             <h2 className={`animate-on-load ${styles.title}`}>Information Brochure</h2>
             <p className={styles.description}>
-              Our official prospectus is a comprehensive guide to everything SAK College of Nursing has to offer. 
+              Our official prospectus is a comprehensive guide to everything SAK Group of Institutions has to offer. 
               Inside, you will find detailed information regarding our infrastructure, expert faculty, modern curriculum, and vibrant campus life.
             </p>
             

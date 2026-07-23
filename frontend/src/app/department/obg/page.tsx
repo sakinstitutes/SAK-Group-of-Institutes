@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'OBG Nursing | Department',
-  description: 'Department of Obstetrics and Gynaecological Nursing at SAK College of Nursing.',
+  description: 'Department of Obstetrics and Gynaecological Nursing at SAK Group of Institutions.',
 };
 
 export default function OBGDepartmentPage() {

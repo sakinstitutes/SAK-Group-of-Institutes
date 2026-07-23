@@ -4,7 +4,7 @@ import { FACULTY } from '@/data/staticData';
 
 export const metadata = {
   title: 'Core Faculty | Staff',
-  description: 'Meet the core teaching faculty at SAK College of Nursing.',
+  description: 'Meet the core teaching faculty at SAK Group of Institutions.',
 };
 
 export default function FacultyPage() {

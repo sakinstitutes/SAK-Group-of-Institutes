@@ -47,7 +47,7 @@ export default function GallerySection() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <div className={styles.overlay}>
-                  <span>{image.caption || 'SAK College Life'} 🔍</span>
+                  <span>{image.caption || 'SAK Group of Institutions Life'} 🔍</span>
                 </div>
               </div>
             );

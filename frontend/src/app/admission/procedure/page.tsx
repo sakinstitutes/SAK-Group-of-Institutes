@@ -3,8 +3,8 @@ import Link from 'next/link';
 import styles from './Procedure.module.css';
 
 export const metadata = {
-  title: 'Admission Procedure | SAK College of Nursing',
-  description: 'Learn about the step-by-step admission procedure at SAK College of Nursing.',
+  title: 'Admission Procedure | SAK Group of Institutions',
+  description: 'Learn about the step-by-step admission procedure at SAK Group of Institutions.',
 };
 
 export default function AdmissionProcedurePage() {

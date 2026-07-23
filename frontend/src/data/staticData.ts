@@ -1,12 +1,12 @@
 // Static site data — edit this file to update content
 
 export const SITE_SETTINGS = {
-  collegeName: 'SAK College of Nursing',
+  collegeName: 'SAK Group of Institutions',
   email: 'info@sakcollege.edu',
   phone: '+91 8884330808',
-  address: 'SAK College Campus, Banglore, India',
-  facebookUrl: '#',
-  instagramUrl: '#',
+  address: 'SAK Group of Institutions Campus, Banglore, India',
+  facebookUrl: 'https://share.google/2uQP8rSyNgw5uwJaq',
+  instagramUrl: 'https://www.instagram.com/sak_institutionsblr07/',
   twitterUrl: '#',
   linkedinUrl: '#',
 };

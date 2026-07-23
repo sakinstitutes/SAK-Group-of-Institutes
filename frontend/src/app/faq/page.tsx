@@ -6,7 +6,7 @@ import { FAQ_DATA } from '@/data/faqData';
 export const metadata: Metadata = {
   title: "FAQ | Nursing Admission, GNM, B.Sc & M.Sc Nursing Questions Answered",
   description:
-    "Answers to common questions about GNM, B.Sc Nursing, Post Basic B.Sc, and M.Sc Nursing admission, eligibility, and fees at SAK College of Nursing, Bangalore.",
+    "Answers to common questions about GNM, B.Sc Nursing, Post Basic B.Sc, and M.Sc Nursing admission, eligibility, and fees at SAK Group of Institutions, Bangalore.",
   keywords: [
     "Nursing College",
     "Nursing College near me",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "M.Sc Nursing",
     "Post Basic B.Sc Nursing",
     "Nursing Admission",
-    "SAK College",
+    "SAK Group of Institutions",
   ],
   alternates: {
     canonical: "https://www.sakinstitutes.com/faq",

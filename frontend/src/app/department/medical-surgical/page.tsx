@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Medical Surgical Nursing | Department',
-  description: 'Department of Medical Surgical Nursing at SAK College of Nursing.',
+  description: 'Department of Medical Surgical Nursing at SAK Group of Institutions.',
 };
 
 export default function MedicalSurgicalDepartmentPage() {

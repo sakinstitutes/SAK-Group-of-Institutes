@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
   title: 'Transport | Facilities',
-  description: 'Transportation facilities at SAK College of Nursing.',
+  description: 'Transportation facilities at SAK Group of Institutions.',
 };
 
 export default function TransportPage() {
@@ -14,7 +14,7 @@ export default function TransportPage() {
           <div style={{ fontSize: '4rem', marginBottom: '1.5rem', opacity: 0.8 }}>🚌</div>
           <h2 style={{ color: 'var(--primary-color)', marginBottom: '1rem' }} className="animate-on-load">College Fleet</h2>
           <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', fontSize: '1.1rem' }}>
-            SAK College of Nursing maintains a dedicated fleet of buses for the safe and comfortable transportation of our students and staff. 
+            SAK Group of Institutions maintains a dedicated fleet of buses for the safe and comfortable transportation of our students and staff. 
             These buses operate on scheduled routes covering major areas of the city and provide daily transport to and from affiliated hospitals for clinical postings and community health visits.
           </p>
         </div>

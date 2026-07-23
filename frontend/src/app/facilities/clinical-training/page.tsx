@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Clinical Training | Facilities',
-  description: 'Hospital affiliations and clinical training at SAK College of Nursing.',
+  description: 'Hospital affiliations and clinical training at SAK Group of Institutions.',
 };
 
 export default function ClinicalTrainingPage() {
@@ -15,7 +15,7 @@ export default function ClinicalTrainingPage() {
           <div>
             <h2 style={{ color: 'var(--primary-color)', marginBottom: '1.5rem', fontSize: '2.5rem' }} className="animate-on-load">Hospital Affiliations</h2>
             <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: '2rem' }}>
-              Practical experience is the cornerstone of nursing education. SAK College of Nursing is affiliated with multiple multi-specialty and super-specialty hospitals to ensure our students receive comprehensive, hands-on clinical exposure in various medical disciplines.
+              Practical experience is the cornerstone of nursing education. SAK Group of Institutions is affiliated with multiple multi-specialty and super-specialty hospitals to ensure our students receive comprehensive, hands-on clinical exposure in various medical disciplines.
             </p>
             <div className="glass-panel card-3d" style={{ padding: '2rem', borderLeft: '4px solid var(--accent-color)' }}>
               <h3 style={{ color: 'var(--text-primary)', marginBottom: '1rem' }} className="animate-on-load">Training Areas</h3>

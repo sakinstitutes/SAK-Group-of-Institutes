@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: "Priya Sharma",
     role: "B.Sc. Nursing Graduate, 2023",
-    quote: "SAK College provided me with the absolute best clinical exposure. The faculty supported me every step of the way, and I was placed in a top hospital immediately after graduation.",
+    quote: "SAK Group of Institutions provided me with the absolute best clinical exposure. The faculty supported me every step of the way, and I was placed in a top hospital immediately after graduation.",
     image: "/gallery3.jpeg" // Using existing image as placeholder
   },
   {
@@ -50,7 +50,7 @@ export default function TestimonialsSection() {
         <div className={styles.header}>
           <span className={styles.badge}>ALUMNI VOICES</span>
           <h2 className={styles.title}>What Our Students Say</h2>
-          <p className={styles.subtitle}>Discover why thousands of aspiring healthcare professionals choose SAK College to kickstart their careers.</p>
+          <p className={styles.subtitle}>Discover why thousands of aspiring healthcare professionals choose SAK Group of Institutions to kickstart their careers.</p>
         </div>
 
         <div className={styles.sliderContainer}>

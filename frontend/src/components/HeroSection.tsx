@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className={styles.heroOverlay}></div>
       <div className={`container ${styles.heroContent}`}>
         <h1 className={styles.title}>
-          Shape Your Future at <span className="gradient-text">SAK College</span>
+          Shape Your Future at <span className="gradient-text">SAK Group of Institutions</span>
         </h1>
         <p className={styles.subtitle}>
           Experience world-class education, cutting-edge facilities, and a vibrant campus life designed to empower the next generation of leaders.

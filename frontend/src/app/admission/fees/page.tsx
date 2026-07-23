@@ -3,8 +3,8 @@ import styles from './Fees.module.css';
 import { LuInfo } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'Fees Structure | SAK College of Nursing',
-  description: 'View the fee structure for various nursing programs at SAK College of Nursing.',
+  title: 'Fees Structure | SAK Group of Institutions',
+  description: 'View the fee structure for various nursing programs at SAK Group of Institutions.',
 };
 
 const programs = [

@@ -2,8 +2,8 @@ import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Facilities | SAK College of Nursing',
-  description: 'Explore the world-class facilities and infrastructure at SAK College of Nursing.',
+  title: 'Facilities | SAK Group of Institutions',
+  description: 'Explore the world-class facilities and infrastructure at SAK Group of Institutions.',
 };
 
 export default function FacilitiesPage() {
@@ -68,7 +68,7 @@ export default function FacilitiesPage() {
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
           <h2 style={{ color: 'var(--primary-color)', marginBottom: '1rem', fontSize: '2.5rem' }} className="animate-on-load">World-Class Infrastructure</h2>
           <p style={{ color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem' }}>
-            We provide an environment that fosters academic excellence and personal growth. Explore the top-tier amenities and infrastructure available at SAK College of Nursing.
+            We provide an environment that fosters academic excellence and personal growth. Explore the top-tier amenities and infrastructure available at SAK Group of Institutions.
           </p>
         </div>
 

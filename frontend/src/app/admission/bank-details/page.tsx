@@ -1,8 +1,8 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Bank Details | SAK College of Nursing',
-  description: 'Official bank details for fee payment at SAK College of Nursing.',
+  title: 'Bank Details | SAK Group of Institutions',
+  description: 'Official bank details for fee payment at SAK Group of Institutions.',
 };
 
 export default function BankDetailsPage() {
@@ -26,7 +26,7 @@ export default function BankDetailsPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Account Name</span>
-                <span style={{ color: 'var(--text-primary)', fontWeight: 700, textAlign: 'right' }}>SAK College of Nursing</span>
+                <span style={{ color: 'var(--text-primary)', fontWeight: 700, textAlign: 'right' }}>SAK Group of Institutions</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Bank Name</span>

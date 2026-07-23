@@ -3,8 +3,8 @@ import Link from 'next/link';
 import styles from './Privacy.module.css';
 
 export const metadata = {
-  title: 'Privacy Policy | SAK College of Nursing',
-  description: 'Privacy Policy for SAK College of Nursing.',
+  title: 'Privacy Policy | SAK Group of Institutions',
+  description: 'Privacy Policy for SAK Group of Institutions.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
 
         <div className={styles.content}>
           <p>
-            At SAK College of Nursing, we are committed to protecting the privacy and security of our students, staff, and visitors. This Privacy Policy outlines how we collect, use, and safeguard your personal information.
+            At SAK Group of Institutions, we are committed to protecting the privacy and security of our students, staff, and visitors. This Privacy Policy outlines how we collect, use, and safeguard your personal information.
           </p>
 
           <h2>1. Information We Collect</h2>
