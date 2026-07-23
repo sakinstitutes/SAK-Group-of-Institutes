@@ -26,8 +26,8 @@ export default function PsychiatricDepartmentPage() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <div style={{ fontSize: '3rem' }}>👨‍⚕️</div>
                 <div>
-                  <h3 style={{ color: 'var(--text-primary)', margin: '0 0 0.5rem 0' }} className="animate-on-load">Dr. Alan Turing</h3>
-                  <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.9rem' }}>Head of Department (HOD)<br/>Ph.D. in Psychiatric Nursing, 14+ Years Experience</p>
+                  <h3 style={{ color: 'var(--text-primary)', margin: '0 0 0.5rem 0' }} className="animate-on-load">Sharath B C</h3>
+                  <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.9rem' }}>Vice Principal, Head of Department (HOD)<br/>M.Sc Nursing (Psychiatric Nursing)</p>
                 </div>
               </div>
             </div>

@@ -1,0 +1,104 @@
+.tierHeading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 3.5rem 0 1.75rem 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tierHeading:first-of-type {
+  margin-top: 0;
+}
+
+.tierHeading h3 {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.tierLine {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, rgba(13, 148, 136, 0.35), transparent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  padding: 2rem 1.75rem;
+  text-align: center;
+  overflow: hidden;
+  border-top: none !important;
+}
+
+.cardAccent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+  margin: 0.25rem auto 1.25rem auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  box-shadow: 0 8px 20px rgba(13, 148, 136, 0.25);
+}
+
+.name {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.designation {
+  display: inline-block;
+  color: var(--primary-color);
+  background: rgba(13, 148, 136, 0.1);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.qualification {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.region {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.85rem;
+  color: var(--secondary-color);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

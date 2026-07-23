@@ -26,8 +26,8 @@ export default function CommunityHealthDepartmentPage() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <div style={{ fontSize: '3rem' }}>👨‍⚕️</div>
                 <div>
-                  <h3 style={{ color: 'var(--text-primary)', margin: '0 0 0.5rem 0' }} className="animate-on-load">Prof. Robert Smith</h3>
-                  <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.9rem' }}>Head of Department (HOD)<br/>M.Sc. Community Health Nursing, 12+ Years Experience</p>
+                  <h3 style={{ color: 'var(--text-primary)', margin: '0 0 0.5rem 0' }} className="animate-on-load">Mr. Sunil Gowda</h3>
+                  <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.9rem' }}>Principal, Head of Department (HOD)<br/>M.Sc Nursing (Community Health Nursing)</p>
                 </div>
               </div>
             </div>
