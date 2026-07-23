@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "SAK College",
   ],
   alternates: {
-    canonical: "https://sakcollege.edu/faq",
+    canonical: "https://www.sakinstitutes.com/faq",
   },
 };
 

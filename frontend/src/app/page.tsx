@@ -42,13 +42,13 @@ export const metadata: Metadata = {
     "SAK College of Nursing is a top nursing college in Bangalore offering GNM, B.Sc, Post Basic B.Sc & M.Sc Nursing. INC-recognized, 15+ years of trust, 100% placement assistance.",
   keywords: KEYWORDS,
   alternates: {
-    canonical: "https://sakcollege.edu",
+    canonical: "https://www.sakinstitutes.com",
   },
   openGraph: {
     title: "SAK College of Nursing | Best Nursing College in Bangalore",
     description:
       "A top nursing college in Bangalore offering GNM, B.Sc, Post Basic B.Sc & M.Sc Nursing. INC-recognized, 15+ years of trust, 100% placement assistance.",
-    url: "https://sakcollege.edu",
+    url: "https://www.sakinstitutes.com",
     siteName: "SAK College of Nursing",
     images: [
       {
