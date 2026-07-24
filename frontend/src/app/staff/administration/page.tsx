@@ -26,8 +26,8 @@ const ACADEMIC_LEADERSHIP: Member[] = [
 
 const ADMISSIONS_TEAM: Member[] = [
   { name: 'Mr. Rakshith', designation: 'Administrator / Administrative Officer', qualification: 'B.Com' },
-  { name: 'Mr. Tarun Roy', designation: 'Admission Officer / Business Development and Admission Manager', qualification: 'B.A', region: 'North India' },
-  { name: 'Mr. Sukanta Bhattacharjee', designation: 'Admission Officer / Business Development and Admission Manager', qualification: 'B.Sc Nursing', region: 'Northeast' },
+  { name: 'Mr. Tarun Roy', designation: 'Business Development and Admission Manager', qualification: 'B.A', region: 'North India' },
+  { name: 'Mr. Sukanta Bhattacharjee', designation: 'Business Development and Admission Manager', qualification: 'B.Sc Nursing', region: 'Northeast' },
 ];
 
 function initials(name: string) {

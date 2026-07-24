@@ -79,7 +79,7 @@ export const GALLERY_IMAGES = [
 export const NOTICES = [
   {
     id: '1',
-    content: '<strong>Admissions Open 2024–25</strong> — Apply now for GNM, B.Sc., Post Basic & M.Sc. Nursing programs.',
+    content: '<strong>Admissions Open 2026–27</strong> — Apply now for GNM, B.Sc., Post Basic & M.Sc. Nursing programs.',
     link: '/admission/online-application',
     isActive: true,
   },

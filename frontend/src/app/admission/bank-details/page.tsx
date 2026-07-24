@@ -26,23 +26,27 @@ export default function BankDetailsPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Account Name</span>
-                <span style={{ color: 'var(--text-primary)', fontWeight: 700, textAlign: 'right' }}>SAK Group of Institutions</span>
+                <span style={{ color: 'var(--text-primary)', fontWeight: 700, textAlign: 'right' }}>Sri Arekeshwara Educational Trust</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Bank Name</span>
-                <span style={{ color: 'var(--text-primary)', textAlign: 'right' }}>[Bank Name Here]</span>
+                <span style={{ color: 'var(--text-primary)', textAlign: 'right' }}>HDFC Bank</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Account Number</span>
-                <span style={{ color: 'var(--text-primary)', fontFamily: 'monospace', fontSize: '1.1rem', textAlign: 'right' }}>0000 0000 0000</span>
+                <span style={{ color: 'var(--text-primary)', fontFamily: 'monospace', fontSize: '1.1rem', textAlign: 'right' }}>50200076204852</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>IFSC Code</span>
-                <span style={{ color: 'var(--text-primary)', fontFamily: 'monospace', fontSize: '1.1rem', textAlign: 'right' }}>ABCD0123456</span>
+                <span style={{ color: 'var(--text-primary)', fontFamily: 'monospace', fontSize: '1.1rem', textAlign: 'right' }}>HDFC0007576</span>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.5rem' }}>
+                <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Branch</span>
+                <span style={{ color: 'var(--text-primary)', textAlign: 'right' }}>Mysore Road</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '0.5rem' }}>
-                <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Branch</span>
-                <span style={{ color: 'var(--text-primary)', textAlign: 'right' }}>Guwahati Main Branch</span>
+                <span style={{ fontWeight: 600, color: 'var(--text-secondary)' }}>Account Type</span>
+                <span style={{ color: 'var(--text-primary)', textAlign: 'right' }}>Current</span>
               </div>
             </div>
           </div>
