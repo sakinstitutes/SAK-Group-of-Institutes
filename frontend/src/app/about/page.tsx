@@ -185,6 +185,16 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+
+          <div className={styles.leadershipCard} style={{ marginTop: '2.5rem' }}>
+            <div className={styles.principalImage}>
+              <div className={styles.avatarPlaceholder}><LuStethoscope /></div>
+            </div>
+            <div className={styles.principalText}>
+              <h3 className="animate-on-load">Mr. Imran Hussain</h3>
+              <span className={styles.credentials}>Director, B. Pharmacy</span>
+            </div>
+          </div>
         </div>
       </section>
     </main>

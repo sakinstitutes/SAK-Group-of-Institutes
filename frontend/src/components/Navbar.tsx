@@ -88,7 +88,7 @@ export default function Navbar() {
               style={{ objectFit: 'contain' }}
             />
             <div className={styles.brandText}>
-              <h1 className={styles.collegeName}>SAK Group of Institute</h1>
+              <h1 className={styles.collegeName}>S A K GROUP OF INSTITUTIONS</h1>
               <p className={styles.collegeSubName}>Excellence in Education</p>
             </div>          </Link>
 

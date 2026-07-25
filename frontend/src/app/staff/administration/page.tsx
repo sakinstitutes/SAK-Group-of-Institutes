@@ -14,9 +14,7 @@ type Member = {
 };
 
 const GOVERNING_BODY: Member[] = [
-  { name: 'Mr. Mahamed Farooq', designation: 'Chairman and Managing Director', qualification: 'MBA' },
   { name: 'Mrs. Safoora Nayab', designation: 'President', qualification: 'M.Sc' },
-  { name: 'Mr. Imran Hussain', designation: 'Director', qualification: 'B. Pharmacy' },
 ];
 
 const ACADEMIC_LEADERSHIP: Member[] = [
