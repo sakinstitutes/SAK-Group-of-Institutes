@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import ApplicationForm from '@/components/ApplicationForm';
 
 export const metadata = {
-  title: 'Online Application | SAK Group of Institutions',
+  title: 'Online Application Form',
   description: 'Apply online for nursing programs at SAK Group of Institutions.',
 };
 

@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Transport | Facilities',
+  title: 'Nursing College Transport',
   description: 'Transportation facilities at SAK Group of Institutions.',
 };
 

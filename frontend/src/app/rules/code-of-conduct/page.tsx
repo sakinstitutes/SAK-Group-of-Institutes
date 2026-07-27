@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Code of Conduct | SAK Group of Institutions',
+  title: 'Student Code of Conduct',
   description: 'Student Code of Conduct and professional guidelines at SAK Group of Institutions.',
 };
 

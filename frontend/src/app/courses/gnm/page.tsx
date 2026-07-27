@@ -4,7 +4,7 @@ import { LuClock, LuUsers, LuGraduationCap, LuCircleCheck, LuFileText } from 're
 import styles from '../CourseDetail.module.css';
 
 export const metadata = {
-  title: 'GNM | Courses Offered',
+  title: 'GNM Nursing Course in Bangalore',
   description: 'General Nursing and Midwifery (GNM) program details.',
 };
 

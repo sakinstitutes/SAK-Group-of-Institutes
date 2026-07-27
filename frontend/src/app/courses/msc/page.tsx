@@ -4,7 +4,7 @@ import { LuClock, LuUsers, LuGraduationCap, LuCircleCheck, LuFileText } from 're
 import styles from '../CourseDetail.module.css';
 
 export const metadata = {
-  title: 'M.Sc. Nursing | Courses Offered',
+  title: 'M.Sc Nursing in Bangalore',
   description: 'Master of Science in Nursing program details.',
 };
 

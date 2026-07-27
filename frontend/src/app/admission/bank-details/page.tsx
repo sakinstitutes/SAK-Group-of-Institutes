@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Bank Details | SAK Group of Institutions',
+  title: 'Fee Payment Bank Details',
   description: 'Official bank details for fee payment at SAK Group of Institutions.',
 };
 

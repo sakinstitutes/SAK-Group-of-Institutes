@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Admissions | SAK Group of Institutions',
+  title: 'Nursing Admission in Bangalore',
   description: 'Start your journey with SAK Group of Institutions. Find all information regarding admissions, fees, and procedures.',
 };
 

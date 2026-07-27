@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './Privacy.module.css';
 
 export const metadata = {
-  title: 'Privacy Policy | SAK Group of Institutions',
+  title: 'Privacy Policy',
   description: 'Privacy Policy for SAK Group of Institutions.',
 };
 

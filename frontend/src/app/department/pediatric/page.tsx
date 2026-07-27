@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Pediatric Nursing | Department',
+  title: 'Pediatric Nursing Department',
   description: 'Department of Pediatric Nursing at SAK Group of Institutions.',
 };
 

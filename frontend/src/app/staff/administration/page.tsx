@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import styles from './Administration.module.css';
 
 export const metadata = {
-  title: 'Administration | Staff',
+  title: 'Administration Team',
   description: 'Administrative and support staff at SAK Group of Institutions.',
 };
 

@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Community Health Nursing | Department',
+  title: 'Community Health Nursing Department',
   description: 'Department of Community Health Nursing at SAK Group of Institutions.',
 };
 

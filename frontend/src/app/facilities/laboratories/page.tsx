@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Laboratories | Facilities',
+  title: 'Nursing College Laboratories',
   description: 'State-of-the-art nursing laboratories at SAK Group of Institutions.',
 };
 

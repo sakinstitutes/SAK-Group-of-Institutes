@@ -37,13 +37,11 @@ const KEYWORDS = [
 ];
 
 export const metadata: Metadata = {
-  title: "SAK Group of Institutions | Best Nursing College in Bangalore",
+  // absolute: brand-first title must bypass the layout's "%s | brand" template
+  title: { absolute: "SAK Group of Institutions | Best Nursing College in Bangalore" },
   description:
     "SAK Group of Institutions is a top nursing college in Bangalore offering GNM, B.Sc, Post Basic B.Sc & M.Sc Nursing. INC-recognized, 15+ years of trust, 100% placement assistance.",
   keywords: KEYWORDS,
-  alternates: {
-    canonical: "https://www.sakinstitutions.com",
-  },
   openGraph: {
     title: "SAK Group of Institutions | Best Nursing College in Bangalore",
     description:

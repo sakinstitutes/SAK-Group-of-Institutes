@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { FACULTY } from '@/data/staticData';
 
 export const metadata = {
-  title: 'Core Faculty | Staff',
+  title: 'Nursing Faculty',
   description: 'Meet the core teaching faculty at SAK Group of Institutions.',
 };
 

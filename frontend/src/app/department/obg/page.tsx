@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'OBG Nursing | Department',
+  title: 'OBG Nursing Department',
   description: 'Department of Obstetrics and Gynaecological Nursing at SAK Group of Institutions.',
 };
 

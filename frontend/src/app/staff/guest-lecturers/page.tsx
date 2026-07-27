@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Guest Lecturers | Staff',
+  title: 'Guest Lecturers',
   description: 'Our esteemed guest lecturers and visiting faculty.',
 };
 

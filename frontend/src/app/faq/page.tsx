@@ -4,7 +4,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import { FAQ_DATA } from '@/data/faqData';
 
 export const metadata: Metadata = {
-  title: "FAQ | Nursing Admission, GNM, B.Sc & M.Sc Nursing Questions Answered",
+  title: "Nursing Admission FAQ",
   description:
     "Answers to common questions about GNM, B.Sc Nursing, Post Basic B.Sc, and M.Sc Nursing admission, eligibility, and fees at SAK Group of Institutions, Bangalore.",
   keywords: [
@@ -19,9 +19,6 @@ export const metadata: Metadata = {
     "Nursing Admission",
     "SAK Group of Institutions",
   ],
-  alternates: {
-    canonical: "https://www.sakinstitutions.com/faq",
-  },
 };
 
 export default function FaqPage() {

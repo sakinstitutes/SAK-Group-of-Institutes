@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Psychiatric Nursing | Department',
+  title: 'Psychiatric Nursing Department',
   description: 'Department of Mental Health and Psychiatric Nursing at SAK Group of Institutions.',
 };
 

@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Clinical Training | Facilities',
+  title: 'Clinical Training Facilities',
   description: 'Hospital affiliations and clinical training at SAK Group of Institutions.',
 };
 

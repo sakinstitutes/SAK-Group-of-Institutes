@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from '../privacy-policy/Privacy.module.css'; // Reusing the same formal document aesthetic
 
 export const metadata = {
-  title: 'Terms of Service | SAK Group of Institutions',
+  title: 'Terms of Service',
   description: 'Terms of Service and Conditions for SAK Group of Institutions.',
 };
 

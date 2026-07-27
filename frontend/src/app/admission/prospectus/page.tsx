@@ -4,7 +4,7 @@ import styles from './Prospectus.module.css';
 import { LuBookOpen, LuCircleCheck, LuDownload, LuInfo } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'Prospectus | SAK Group of Institutions',
+  title: 'Prospectus Download',
   description: 'Download the official prospectus of SAK Group of Institutions.',
 };
 

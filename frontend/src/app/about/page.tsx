@@ -14,7 +14,7 @@ import {
 } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'About Us | SAK Group of Institutions',
+  title: 'About Us',
   description: 'Learn about the history, achievements, mission, and leadership of SAK Group of Institutions.',
 };
 

@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Hostel Rules | SAK Group of Institutions',
+  title: 'Hostel Rules',
   description: 'Hostel rules and regulations at SAK Group of Institutions.',
 };
 

@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Rules & Regulations | SAK Group of Institutions',
+  title: 'Rules & Regulations',
   description: 'Overview of the rules, regulations, and policies at SAK Group of Institutions.',
 };
 

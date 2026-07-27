@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './Procedure.module.css';
 
 export const metadata = {
-  title: 'Admission Procedure | SAK Group of Institutions',
+  title: 'Admission Procedure',
   description: 'Learn about the step-by-step admission procedure at SAK Group of Institutions.',
 };
 

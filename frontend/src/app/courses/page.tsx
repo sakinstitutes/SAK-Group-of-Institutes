@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { COURSES } from '@/data/staticData';
 
 export const metadata = {
-  title: 'Courses Offered | SAK Group of Institutions',
+  title: 'Nursing Courses in Bangalore',
   description: 'Explore our comprehensive nursing programs including GNM, B.Sc. Nursing, and M.Sc. Nursing.',
 };
 

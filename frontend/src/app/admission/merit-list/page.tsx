@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 
 export const metadata = {
-  title: 'Merit List | SAK Group of Institutions',
+  title: 'Merit List',
   description: 'View the latest admission merit lists for SAK Group of Institutions.',
 };
 

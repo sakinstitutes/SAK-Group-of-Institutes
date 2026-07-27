@@ -4,7 +4,7 @@ export const SITE_SETTINGS = {
   collegeName: 'SAK Group of Institutions',
   email: 'info@sakcollege.edu',
   phone: '+91 8884330808',
-  address: 'SAK Group of Institutions Campus, Banglore, India',
+  address: 'SAK Group of Institutions Campus, Bangalore, Karnataka, India',
   facebookUrl: 'https://share.google/2uQP8rSyNgw5uwJaq',
   instagramUrl: 'https://www.instagram.com/sak_institutionsblr07/',
   twitterUrl: '#',

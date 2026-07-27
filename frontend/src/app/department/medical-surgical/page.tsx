@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Medical Surgical Nursing | Department',
+  title: 'Medical Surgical Nursing Department',
   description: 'Department of Medical Surgical Nursing at SAK Group of Institutions.',
 };
 

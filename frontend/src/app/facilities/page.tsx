@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Facilities | SAK Group of Institutions',
+  title: 'Nursing College Facilities',
   description: 'Explore the world-class facilities and infrastructure at SAK Group of Institutions.',
 };
 

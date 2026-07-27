@@ -3,7 +3,7 @@ import styles from './Fees.module.css';
 import { LuInfo } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'Fees Structure | SAK Group of Institutions',
+  title: 'Nursing Course Fees in Bangalore',
   description: 'View the fee structure for various nursing programs at SAK Group of Institutions.',
 };
 

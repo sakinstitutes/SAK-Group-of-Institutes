@@ -66,7 +66,6 @@ const routes: Array<{
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(({ path, priority, changeFrequency }) => ({
     url: `${BASE_URL}${path}`,
-    lastModified: new Date(),
     changeFrequency,
     priority,
   }));

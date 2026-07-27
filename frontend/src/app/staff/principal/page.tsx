@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: "Principal's Profile | Staff",
+  title: "Principal's Profile",
   description: "Message and profile of the Principal at SAK Group of Institutions.",
 };
 

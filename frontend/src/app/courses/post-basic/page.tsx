@@ -4,7 +4,7 @@ import { LuClock, LuUsers, LuGraduationCap, LuCircleCheck, LuFileText } from 're
 import styles from '../CourseDetail.module.css';
 
 export const metadata = {
-  title: 'Post Basic B.Sc. Nursing | Courses Offered',
+  title: 'Post Basic B.Sc Nursing in Bangalore',
   description: 'Post Basic B.Sc. Nursing program details.',
 };
 

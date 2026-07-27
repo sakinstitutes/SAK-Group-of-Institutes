@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Library | Facilities',
+  title: 'Nursing College Library',
   description: 'Central Library of SAK Group of Institutions.',
 };
 

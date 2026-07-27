@@ -3,7 +3,7 @@ import styles from './AntiRagging.module.css';
 import { LuShield, LuGavel, LuUsers } from 'react-icons/lu';
 
 export const metadata = {
-  title: 'Anti-Ragging Policy | Rules',
+  title: 'Anti-Ragging Policy',
   description: 'Anti-ragging policy at SAK Group of Institutions.',
 };
 

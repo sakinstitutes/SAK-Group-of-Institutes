@@ -2,7 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import EnquiryForm from '@/components/EnquiryForm';
 
 export const metadata = {
-  title: 'Enquire Now | SAK Group of Institutions',
+  title: 'Apply for Nursing Admission',
   description: 'Submit an enquiry for nursing programs at SAK Group of Institutions.',
 };
 

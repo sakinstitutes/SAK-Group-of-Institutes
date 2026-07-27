@@ -5,7 +5,7 @@ import { LuMapPin, LuPhone, LuMail } from 'react-icons/lu';
 import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
 export const metadata = {
-  title: 'Contact Us | SAK Group of Institutions',
+  title: 'Contact Us',
   description: 'Get in touch with SAK Group of Institutions for admissions, inquiries, or more information.',
 };
 
@@ -32,7 +32,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="animate-on-load">Campus Address</h3>
-                  <p>SAK Group of Institutions Campus<br />Banglore, India</p>
+                  <p>SAK Group of Institutions Campus<br />Bangalore, Karnataka, India</p>
                 </div>
               </div>
 
@@ -78,7 +78,9 @@ export default function ContactPage() {
       {/* Map Section */}
       <section className={styles.mapSection}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.73587637841!2d91.68832968383804!3d26.143210452336344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a287f9133ff%3A0x2bbd1332436bde32!2sGuwahati%2C%20Assam!5e0!3m2!1sen!2sin!4v1715000000000!5m2!1sen!2sin"
+          /* TODO: replace with the exact "Share > Embed a map" snippet once campus coordinates are confirmed */
+          src="https://maps.google.com/maps?q=SAK+Group+of+Institutions,+Bengaluru,+Karnataka&output=embed"
+          title="SAK Group of Institutions campus location"
           width="100%"
           height="450"
           style={{ border: 0 }}
