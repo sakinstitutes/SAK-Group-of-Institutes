@@ -42,13 +42,13 @@ export const metadata: Metadata = {
     "SAK Group of Institutions is a top nursing college in Bangalore offering GNM, B.Sc, Post Basic B.Sc & M.Sc Nursing. INC-recognized, 15+ years of trust, 100% placement assistance.",
   keywords: KEYWORDS,
   alternates: {
-    canonical: "https://www.sakinstitutes.com",
+    canonical: "https://www.sakinstitutions.com",
   },
   openGraph: {
     title: "SAK Group of Institutions | Best Nursing College in Bangalore",
     description:
       "A top nursing college in Bangalore offering GNM, B.Sc, Post Basic B.Sc & M.Sc Nursing. INC-recognized, 15+ years of trust, 100% placement assistance.",
-    url: "https://www.sakinstitutes.com",
+    url: "https://www.sakinstitutions.com",
     siteName: "SAK Group of Institutions",
     images: [
       {

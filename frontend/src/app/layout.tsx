@@ -8,13 +8,13 @@ import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.sakinstitutes.com"),
+  metadataBase: new URL("https://www.sakinstitutions.com"),
   title: "SAK Group of Institutions | Empowering Future Healthcare Leaders",
   description: "Welcome to SAK Group of Institutions, a premier institution for higher education in nursing. Explore our GNM, B.Sc, and M.Sc programs.",
   openGraph: {
     title: "SAK Group of Institutions",
     description: "Empowering Future Healthcare Leaders through excellence in nursing education.",
-    url: "https://www.sakinstitutes.com",
+    url: "https://www.sakinstitutions.com",
     siteName: "SAK Group of Institutions",
     images: [
       {

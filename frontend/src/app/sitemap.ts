@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://www.sakinstitutes.com";
+const BASE_URL = "https://www.sakinstitutions.com";
 
 // Every static page route in src/app. Add new pages here when they are created.
 const routes: Array<{
