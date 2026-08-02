@@ -1,7 +1,7 @@
 export const dynamic = 'force-dynamic';
 import { NextResponse } from 'next/server';
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/meeykddj';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xbdnvwon';
 
 export async function POST(request: Request) {
   try {
